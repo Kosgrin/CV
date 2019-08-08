@@ -252,7 +252,7 @@
 
                                 <!-- Organization and Period -->
                                 <p class="sub-heading">фриланс</p>
-                                <p class="sub-heading">september 2014 - now</p>
+                                <p class="sub-heading">сентябрь 2014 - сейчас</p>
 
                                 <!-- Job Summary -->
                                 <p class="content-p">
@@ -646,7 +646,7 @@
                         </li>
                         <li>
                             <i class="fa fa-envelope" aria-hidden="true padding-left"></i>
-                            <h6>grinyakostya@gmail.com</h6>
+                            <h6>grinyakkostya@gmail.com</h6>
                         </li>
                         <li>
                             <i class="fa fa-telegram" aria-hidden="true text-align"></i>
@@ -662,38 +662,41 @@
             <div class="col col-md-7 col-sm-6 col-xs-12">
                 <div  class="contact card">
 
-                    <form id="contact-form" name="contact-form" role="form">
+                    <form action="https://formspree.io/grinyakkostya@gmail.com" method="POST">
                         <div class="input-field">
-                            <input  id="name" name="name" type="text" class="validate" required>
+                            <input  id="name" name="name" type="text" class="validate" name="name" required>
                             <label for="name">Имя</label>
                         </div>
                         <div class="input-field">
-                            <input id="subject" name="subject" type="text" class="validate" required>
+                            <input id="subject" name="subject" type="text" class="validate" name="theme" required>
                             <label for="subject">Тема</label>
                         </div>
                         <div class="input-field">
-                            <input id="email" name="email" type="email" class="validate" required>
+                            <input id="email" name="email" type="email" class="validate" name="email" required>
                             <label for="email">Почта</label>
                         </div>
                         <div class="input-field">
-                            <textarea id="textarea" name="message" class="materialize-textarea" required></textarea>
+                            <textarea id="textarea" name="message" class="materialize-textarea" name="message" required></textarea>
                             <label for="textarea">Сообщение</label>
                         </div>
                         <div class="row">
                             <div class="col col-md-12 col-sm-12 col-xs-12 text-center">
-                                <button type="submit" id="submit" name="submit-data" value="Submit" class="btn waves-effect waves-light btn-primary custom-btn">
+                                <input type="submit" id="submit" name="submit-data" value="Submit" class="btn waves-effect waves-light btn-primary custom-btn">
                                     <!-- Button value here -->
-                                    <i class="ion-ios-paperplane" a href="mailto: grinyakkostya@gmail.com"></i>Send</button>
+                                    
                             </div>
 
                             <!-- Message Sent and Error info -->
-                            <div id="snackbar">Сообщение отправлено</div>
-                            <div id="fail-snackbar">Что-то не так, попробуйте позже</div>
+                            <div id="snackbar">Ваше сообщение отпралено</div>
+                            <div id="fail-snackbar">Упс! что-то не так</div>
                         </div>
                     </form>
 
                 </div>
             </div>
+			
+			
+			
             <!-- ./Contact Form -->
 
         </div>
