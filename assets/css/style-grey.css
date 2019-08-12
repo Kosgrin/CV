@@ -74,7 +74,7 @@ a:hover, a:active, a:focus{color:#00dcf8;text-decoration:none;outline:0;}
 #about #intro-div p{padding:0 5%;margin:32px 0;}
 #about #intro-div .btn{width:180px;height:auto;margin:10px 10px;}
 #header li a:active{color:#424242}
-#header{}
+#header #lng{position:relative;z-index:4;bottom:0;top:20;left:40px}
 
 .timeline{margin-top:15px;width:100%;height:auto;}
 .timeline:before{content:'';position:absolute;height:90%;width:2px;background:#00bcd4;left:0px;}
